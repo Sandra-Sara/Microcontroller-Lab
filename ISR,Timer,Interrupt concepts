@@ -1,0 +1,9 @@
+An ISR stands for Interrupt Service Routine.
+In simple terms —
+An ISR is a special function in your program that runs automatically when an interrupt occurs.
+Detailed Explanation
+When a specific event happens — like:
+a button press,
+a timer overflow,
+or a sensor signal change,
+the microcontroller pauses the main program and jumps immediately to execute the ISR function.
