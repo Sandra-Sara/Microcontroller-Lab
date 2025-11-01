@@ -233,3 +233,10 @@ B) D2, D3
 C) D4, D5
 D) D0, D1, D2, D3
 Answer: D) D0, D1, D2, D3 (all four lower data pins are not used)
+
+15. What is the resistance value of the potentiometer used in the circuit?
+A) 1K ohm
+B) 5K ohm
+C) 10K ohm
+D) 100K ohm
+Answer: C) 10K ohm
