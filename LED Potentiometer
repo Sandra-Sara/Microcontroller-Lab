@@ -118,3 +118,32 @@ B. 0x40
 C. 0x27
 D. 0x10
 Answer: C. 0x27
+
+
+Which Arduino library is needed for LCDs using the I2C interface?
+A. LiquidCrystal.h
+B. LiquidCrystal_I2C.h
+C. WireScanner.h
+D. ESP32_LCD.h
+Answer: B. LiquidCrystal_I2C.h
+
+In the code LiquidCrystal_I2C lcd(0x27, 16, 2);, what does 0x27 represent?
+A. Number of LCD rows
+B. Number of LCD columns
+C. I2C address of the LCD adapter
+D. Baud rate for serial communication
+Answer: C. I2C address of the LCD adapter
+
+What command turns on the LCD backlight when using I2C?
+A. lcd.lightOn()
+B. lcd.enable()
+C. lcd.backlight()
+D. lcd.turnOn()
+ Answer: C. lcd.backlight()
+
+Which function initializes the LCD before printing text on it?
+A. lcd.begin()
+B. lcd.start()
+C. lcd.setup()
+D. lcd.initDisplay()
+Answer: A. lcd.begin()
