@@ -17,5 +17,9 @@ The event is the FALLING edge (button press: signal goes from HIGH → LOW).
 The ISR is the function named toggle().
 When the interrupt happens, toggle() runs instantly, turning the LED on or off.
 
+Triggered automatically by hardware or software interrupt events.
+Runs immediately, interrupting normal code execution.
+Should be short and fast — never use long delays or Serial.print() inside.
+After ISR finishes, the CPU returns to where it left off in the main program.
 
 
