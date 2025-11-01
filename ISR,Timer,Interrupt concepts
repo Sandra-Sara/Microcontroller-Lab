@@ -24,3 +24,9 @@ After ISR finishes, the CPU returns to where it left off in the main program.
 
 
 How can an MCU handle multiple tasks concurrently (like LED blinking and buzzer triggering)?
+
+How an MCU handles multiple tasks concurrently
+Even though a microcontroller (MCU) like the ESP32 has limited processing capability and usually runs one instruction at a time,
+it can appear to do multiple tasks at once using timers and interrupts.
+
+
