@@ -83,6 +83,13 @@ D. Servo
 Answer: A. LiquidCrystal
 
 
+Which Arduino library is needed for LCDs using the I2C interface?
+A. LiquidCrystal.h
+B. LiquidCrystal_I2C.h
+C. WireScanner.h
+D. ESP32_LCD.h
+ Answer: B. LiquidCrystal_I2C.h
+
 What is the advantage of using an I2C adapter with the LCD?
 A. Allows control using fewer wires (only 4 pins)
 B. Increases display brightness
