@@ -7,3 +7,15 @@ a button press,
 a timer overflow,
 or a sensor signal change,
 the microcontroller pauses the main program and jumps immediately to execute the ISR function.
+
+attachInterrupt(digitalPinToInterrupt(2), toggle, FALLING);
+void toggle() {
+  digitalWrite(13, !digitalRead(13));
+}
+Here:
+The event is the FALLING edge (button press: signal goes from HIGH → LOW).
+The ISR is the function named toggle().
+When the interrupt happens, toggle() runs instantly, turning the LED on or off.
+
+
+
