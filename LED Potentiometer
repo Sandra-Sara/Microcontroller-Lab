@@ -89,3 +89,10 @@ B. Increases display brightness
 C. Increases display refresh rate
 D. Provides faster serial communication
 Answer: A. Allows control using fewer wires (only 4 pins)
+
+Which chip is commonly used in the I2C adapter for LCDs?
+A. LM35
+B. PCF8574T
+C. MAX232
+D. MCP3008
+Answer: B. PCF8574T
