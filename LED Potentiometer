@@ -189,3 +189,10 @@ B. Controlling servo motors over WiFi
 C. Logging data to SD card
 D. Streaming video
 Answer: A. Displaying sensor readings when no internet connection is used
+
+1. How many pins does a 16x2 LCD display have?
+A) 8 pins
+B) 12 pins
+C) 16 pins
+D) 20 pins
+Answer: C) 16 pins
