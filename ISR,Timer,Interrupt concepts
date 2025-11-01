@@ -50,3 +50,9 @@ It’s like a chef (MCU) cooking one dish (main code),
 but when the oven timer beeps (timer interrupt), he checks the oven (blinks LED),
 and if the doorbell rings (external interrupt), he quickly answers it (triggers buzzer),
 then returns to cooking — all tasks seem parallel.
+
+
+
+What happens if long code is placed inside an ISR?
+ Answer: B. Slows down or blocks other interrupts
+ISRs should be short — long ISRs delay other critical events.
