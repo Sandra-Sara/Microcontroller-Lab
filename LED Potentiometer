@@ -168,3 +168,10 @@ B. It uses one wire for both data and power
 C. It requires separate pins for each device
 D. It cannot connect multiple devices
 Answer: A. It uses two wires: SDA for data and SCL for clock
+
+What is the function of the command lcd.clear(); in setup()?
+A. Turns off LCD backlight
+B. Clears all previous characters on the display
+C. Resets I2C address
+D. Enables cursor blinking
+Answer: B. Clears all previous characters on the display
