@@ -65,3 +65,11 @@ void loop() {
   delay(1000);
 }
 Here, GPIO 13 is used to blink an LED.
+
+
+In the direct connection example, what does lcd.print(millis() / 1000); display?
+A. Number of loops executed
+B. Number of milliseconds since reset
+C. Number of seconds since reset
+D. Sensor reading value
+ Answer: C. Number of seconds since reset
