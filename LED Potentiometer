@@ -204,3 +204,11 @@ B) To adjust the contrast of the display
 C) To regulate the power supply
 D) To control the refresh rate
 Answer: B) To adjust the contrast of the display
+
+
+3. In Method 1 (without I2C), which ESP32 pin is connected to LCD RS (Register Select) pin?
+A) GPIO22
+B) GPIO19
+C) GPIO23
+D) GPIO18
+Answer: B) GPIO19
