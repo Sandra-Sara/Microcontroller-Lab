@@ -53,3 +53,15 @@ Output Mode
 Used to send signals (for example, turning ON an LED or buzzer).
 pinMode(pin, OUTPUT);
 Example: Write HIGH to make LED glow, LOW to turn it off.
+
+int ledPin = 13;  // GPIO pin connected to LED
+void setup() {
+  pinMode(ledPin, OUTPUT);  // Set pin 13 as Output
+}
+void loop() {
+  digitalWrite(ledPin, HIGH); // Turn LED ON
+  delay(1000);
+  digitalWrite(ledPin, LOW);  // Turn LED OFF
+  delay(1000);
+}
+Here, GPIO 13 is used to blink an LED.
