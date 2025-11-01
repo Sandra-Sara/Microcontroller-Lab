@@ -153,3 +153,10 @@ B. lcd.start()
 C. lcd.setup()
 D. lcd.initDisplay()
 Answer: A. lcd.begin()
+
+If nothing is displayed on the LCD after uploading the code, what should you check first?
+A. Whether the USB cable is defective
+B. The contrast adjustment using the potentiometer
+C. The serial baud rate
+D. Whether the ESP32 is in boot mode
+ Answer: B. The contrast adjustment using the potentiometer
