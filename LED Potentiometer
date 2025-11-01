@@ -41,3 +41,15 @@ Read a signal (Input), or
 Send a signal (Output)
 In Simple Terms
 GPIO pins are like tiny switches or communication points between the microcontroller and the outside world (sensors, LEDs, buzzers, buttons, etc.).
+
+
+ Two Main Modes
+Input Mode
+Used to read signals (for example, checking if a button is pressed).
+pinMode(pin, INPUT);
+Example: Detect HIGH or LOW voltage from a sensor.
+
+Output Mode
+Used to send signals (for example, turning ON an LED or buzzer).
+pinMode(pin, OUTPUT);
+Example: Write HIGH to make LED glow, LOW to turn it off.
