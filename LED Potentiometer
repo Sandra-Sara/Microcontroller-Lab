@@ -1,1 +1,28 @@
+What is the dimension of a 1602A LCD module?
+A. 20x4 (20 columns and 4 rows)
+B. 16x2 (16 columns and 2 rows)
+C. 8x1 (8 columns and 1 row)
+D. 32x4 (32 columns and 4 rows)
+Answer: B. 16x2
+
+What is the main purpose of using a potentiometer in the LCD circuit?
+A. To control brightness of the backlight
+B. To adjust the contrast of the characters displayed
+C. To supply voltage to the LCD
+D. To control the speed of text scrolling
+Answer: B. To adjust the contrast of the characters displayed
+
+Which pin of the LCD is connected to ground (GND)?
+A. Pin 2 (VDD)
+B. Pin 1 (VSS)
+C. Pin 4 (RS)
+D. Pin 15 (A)
+Answer: B. Pin 1 (VSS)
+
+What is the main disadvantage of connecting LCD without I2C adapter?
+A. Needs fewer connections
+B. Uses many GPIO pins and more jumper wires
+C. Cannot adjust contrast
+D. Needs external EEPROM
+Answer: B. Uses many GPIO pins and more jumper wires
 
