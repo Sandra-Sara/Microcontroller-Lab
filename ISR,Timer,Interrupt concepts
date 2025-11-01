@@ -52,7 +52,19 @@ and if the doorbell rings (external interrupt), he quickly answers it (triggers 
 then returns to cooking — all tasks seem parallel.
 
 
-
 What happens if long code is placed inside an ISR?
  Answer: B. Slows down or blocks other interrupts
 ISRs should be short — long ISRs delay other critical events.
+
+What is the best practice for writing ISRs?
+Answer: C. Keep them short and efficient
+Do minimal work, set flags, and process later in loop().
+
+When two interrupts occur at the same time, how does the MCU respond?
+Answer: C. Executes the higher-priority ISR first, then the other
+MCUs have interrupt priority systems to manage multiple requests.
+
+Extension
+To make two LEDs blink at different rates using timers, what approach should be used?
+ Answer: B. Use two independent hardware timers with separate ISRs
+ Each timer controls one LED’s timing without interference.
