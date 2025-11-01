@@ -24,7 +24,6 @@ After ISR finishes, the CPU returns to where it left off in the main program.
 
 
 How can an MCU handle multiple tasks concurrently (like LED blinking and buzzer triggering)?
-
 How an MCU handles multiple tasks concurrently
 Even though a microcontroller (MCU) like the ESP32 has limited processing capability and usually runs one instruction at a time,
 it can appear to do multiple tasks at once using timers and interrupts.
@@ -41,4 +40,13 @@ The timer runs in the background; when 1 second passes, it triggers an ISR that 
 Use an external interrupt for the button.
 When the button is pressed, an ISR runs instantly to turn on the buzzer.
 So, both tasks seem to run simultaneously, even though the MCU executes them very fast in sequence.
-
+Example Concept
+Event 	      Mechanism	          What Happens
+LED blinking	Timer interrupt	    Toggles LED at fixed intervals
+Button press	External interrupt	Immediately triggers buzzer
+Main loop	    Free	              Can run other tasks or stay idle
+Analogy
+It’s like a chef (MCU) cooking one dish (main code),
+but when the oven timer beeps (timer interrupt), he checks the oven (blinks LED),
+and if the doorbell rings (external interrupt), he quickly answers it (triggers buzzer),
+then returns to cooking — all tasks seem parallel.
