@@ -175,3 +175,10 @@ B. Clears all previous characters on the display
 C. Resets I2C address
 D. Enables cursor blinking
 Answer: B. Clears all previous characters on the display
+
+When using I2C, how many LCD modules can theoretically be connected to the same SDA/SCL lines (with unique addresses)?
+A. 1
+B. 2
+C. Up to 127
+D. Unlimited
+Answer: C. Up to 127
