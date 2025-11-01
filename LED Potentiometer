@@ -73,3 +73,11 @@ B. Number of milliseconds since reset
 C. Number of seconds since reset
 D. Sensor reading value
  Answer: C. Number of seconds since reset
+
+
+What library must be installed to use LCD with ESP32 (without I2C)?
+A. LiquidCrystal
+B. Wire
+C. ESP32WiFi
+D. Servo
+Answer: A. LiquidCrystal
