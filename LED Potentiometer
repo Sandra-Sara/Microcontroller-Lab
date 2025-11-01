@@ -81,3 +81,11 @@ B. Wire
 C. ESP32WiFi
 D. Servo
 Answer: A. LiquidCrystal
+
+
+What is the advantage of using an I2C adapter with the LCD?
+A. Allows control using fewer wires (only 4 pins)
+B. Increases display brightness
+C. Increases display refresh rate
+D. Provides faster serial communication
+Answer: A. Allows control using fewer wires (only 4 pins)
