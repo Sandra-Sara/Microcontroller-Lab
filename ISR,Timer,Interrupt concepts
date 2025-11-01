@@ -23,3 +23,4 @@ Should be short and fast — never use long delays or Serial.print() inside.
 After ISR finishes, the CPU returns to where it left off in the main program.
 
 
+How can an MCU handle multiple tasks concurrently (like LED blinking and buzzer triggering)?
