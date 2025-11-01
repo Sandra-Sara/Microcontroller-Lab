@@ -33,3 +33,11 @@ B. GPIO pins connected to LCD data and control pins
 C. ADC pin numbers
 D. I2C addresses
 Answer: B. GPIO pins connected to LCD data and control pins
+
+
+GPIO stands for General Purpose Input/Output.
+They are the pins on a microcontroller (like Arduino, ESP32, STM32, etc.) that can be programmed to either:
+Read a signal (Input), or
+Send a signal (Output)
+In Simple Terms
+GPIO pins are like tiny switches or communication points between the microcontroller and the outside world (sensors, LEDs, buzzers, buttons, etc.).
