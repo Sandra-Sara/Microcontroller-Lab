@@ -160,3 +160,11 @@ B. The contrast adjustment using the potentiometer
 C. The serial baud rate
 D. Whether the ESP32 is in boot mode
  Answer: B. The contrast adjustment using the potentiometer
+
+
+Which of the following statements about I2C communication is TRUE?
+A. It uses two wires: SDA for data and SCL for clock
+B. It uses one wire for both data and power
+C. It requires separate pins for each device
+D. It cannot connect multiple devices
+Answer: A. It uses two wires: SDA for data and SCL for clock
