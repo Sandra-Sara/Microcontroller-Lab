@@ -26,6 +26,12 @@ C. Cannot adjust contrast
 D. Needs external EEPROM
 Answer: B. Uses many GPIO pins and more jumper wires
 
+Why should you scan for the I2C address before using the LCD?
+A. Because different modules may have different I2C addresses
+B. To avoid code errors caused by wrong baud rate
+C. To calibrate the potentiometer
+D. To check battery voltage
+ Answer: A. Because different modules may have different I2C addresses
 
 In the example code LiquidCrystal lcd(19, 23, 18, 17, 16, 15);, what do these numbers represent?
 A. Baud rate values
