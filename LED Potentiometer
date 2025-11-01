@@ -182,3 +182,10 @@ B. 2
 C. Up to 127
 D. Unlimited
 Answer: C. Up to 127
+
+Which of the following applications is most suitable for using a 16x2 LCD with ESP32?
+A. Displaying sensor readings when no internet connection is used
+B. Controlling servo motors over WiFi
+C. Logging data to SD card
+D. Streaming video
+Answer: A. Displaying sensor readings when no internet connection is used
