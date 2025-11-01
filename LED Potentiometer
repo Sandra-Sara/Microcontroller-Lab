@@ -104,3 +104,10 @@ B. GPIO21 (SDA) and GPIO22 (SCL)
 C. GPIO15 (SDA) and GPIO16 (SCL)
 D. GPIO17 (SDA) and GPIO18 (SCL)
  Answer: B. GPIO21 (SDA) and GPIO22 (SCL)
+
+What is the default I2C address of most LCD I2C adapters?
+A. 0x3C
+B. 0x40
+C. 0x27
+D. 0x10
+Answer: C. 0x27
