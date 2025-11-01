@@ -96,3 +96,11 @@ B. PCF8574T
 C. MAX232
 D. MCP3008
 Answer: B. PCF8574T
+
+
+What are the two main I2C communication pins on ESP32?
+A. GPIO19 (SDA) and GPIO23 (SCL)
+B. GPIO21 (SDA) and GPIO22 (SCL)
+C. GPIO15 (SDA) and GPIO16 (SCL)
+D. GPIO17 (SDA) and GPIO18 (SCL)
+ Answer: B. GPIO21 (SDA) and GPIO22 (SCL)
