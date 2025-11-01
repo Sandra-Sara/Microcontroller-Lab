@@ -219,3 +219,10 @@ B) 5V
 C) 9V
 D) 12V
 Answer: B) 5V
+
+5. In Method 2 (with I2C adapter), how many wires are needed to connect the LCD to ESP32?
+A) 2 wires
+B) 4 wires
+C) 8 wires
+D) 12 wires
+Answer: B)4 wires
