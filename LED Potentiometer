@@ -226,3 +226,10 @@ B) 4 wires
 C) 8 wires
 D) 12 wires
 Answer: B)4 wires
+
+9. In Method 1, which LCD data pins (D0-D3) are NOT used?
+A) D0, D1
+B) D2, D3
+C) D4, D5
+D) D0, D1, D2, D3
+Answer: D) D0, D1, D2, D3 (all four lower data pins are not used)
