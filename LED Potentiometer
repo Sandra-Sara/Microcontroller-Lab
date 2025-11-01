@@ -212,3 +212,10 @@ B) GPIO19
 C) GPIO23
 D) GPIO18
 Answer: B) GPIO19
+
+4. What voltage is required for the 16x2 LCD display?
+A) 3.3V
+B) 5V
+C) 9V
+D) 12V
+Answer: B) 5V
