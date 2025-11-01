@@ -26,3 +26,10 @@ C. Cannot adjust contrast
 D. Needs external EEPROM
 Answer: B. Uses many GPIO pins and more jumper wires
 
+
+In the example code LiquidCrystal lcd(19, 23, 18, 17, 16, 15);, what do these numbers represent?
+A. Baud rate values
+B. GPIO pins connected to LCD data and control pins
+C. ADC pin numbers
+D. I2C addresses
+Answer: B. GPIO pins connected to LCD data and control pins
